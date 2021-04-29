@@ -2,6 +2,7 @@ import React from "react";
 import "./SearchedMovie.css";
 import { useSelector, useDispatch } from "react-redux";
 import { addNomination } from "../../actions/Nominations";
+import formatDate from "../../utilities/formatDate";
 
 const Movie = ({ movie }) => {
 	const dispatch = useDispatch();
@@ -36,7 +37,7 @@ const Movie = ({ movie }) => {
 					<div>
 						<h3>{movie.Title}</h3>
 						<p>{movie.Genre}</p>
-						<p>{movie.Released}</p>
+						<p>{formatDate(movie.Released)}</p>
 						<p>Runtime: {movie.Runtime}</p>
 						<button
 							onClick={handleNominate}

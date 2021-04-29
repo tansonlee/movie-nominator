@@ -51,6 +51,11 @@ const Nominated = () => {
 							{...provided.droppableProps}
 							ref={provided.innerRef}
 						>
+							{nominations.length === 0 && (
+								<p className="no-nominations">
+									Your nominations will show up here.
+								</p>
+							)}
 							{nominations.map((nomination, index) => (
 								<NominatedItem
 									provided={provided}

@@ -8,10 +8,18 @@
 
 	.nominated-list {
 		width: 100%;
-		background-color: $third-background-color;
-		padding: 10px;
+		background-color: $secondary-background-color;
+		padding: 5px 15px;
 		border-radius: 8px;
 		// border: 1px solid $main-flare;
+	}
+
+	.no-nominations {
+		text-align: center;
+		color: $secondary-font-color;
+		font-size: 20px;
+		font-weight: 300;
+		margin: 10px;
 	}
 
 	> p {
@@ -29,13 +37,14 @@
 
 	.movie-item {
 		width: 100%;
-		background-color: $secondary-background-color;
+		background-color: $third-background-color;
 		padding: 15px;
-		margin-bottom: 10px;
+		margin: 10px 0px;
 		border-radius: 8px;
 		display: flex;
 		flex-direction: row;
 		align-items: center;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 		img {
 			height: 160px;
@@ -53,14 +62,24 @@
 
 			p {
 				font-size: 18px;
-				margin: 5px;
+				margin: 6px 0px;
 				color: $secondary-font-color;
 				font-weight: 300;
 			}
 
 			button {
-				padding: 5px;
-				font-size: 18px;
+				padding: 5px 15px;
+				font-size: 20px;
+				border: 1px solid $main-flare;
+				background-color: $secondary-background-color;
+				border-radius: 4px;
+				color: $secondary-font-color;
+				font-weight: 300;
+
+				&:hover {
+					cursor: pointer;
+					background-color: $third-background-color;
+				}
 			}
 		}
 	}

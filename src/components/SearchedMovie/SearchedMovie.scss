@@ -4,23 +4,30 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+
+	> h2 {
+		color: $secondary-font-color;
+		font-size: 20px;
+		font-weight: 300;
+	}
+
 	h1 {
 		font-size: 40px;
 		font-weight: 400;
 		color: $main-font-color;
 	}
 	> div {
-		width: 100%;
+		// width: 100%;
 		background-color: $secondary-background-color;
-		padding: 20px;
+		padding: 25px;
 		border-radius: 8px;
 		display: flex;
 		flex-direction: column;
-		align-items: center;
 		width: fit-content;
 
 		img {
 			width: 250px;
+			margin: 0 auto;
 		}
 
 		div {
@@ -43,19 +50,36 @@
 			button {
 				width: 100%;
 				padding: 5px;
-				font-size: 18px;
-				// margin: 0 auto;
+				font-size: 20px;
+				border: 1px solid $main-flare;
+				background-color: $secondary-background-color;
+				border-radius: 4px;
+				color: $secondary-font-color;
+				font-weight: 300;
+
+				&:hover {
+					cursor: pointer;
+					background-color: $third-background-color;
+				}
 			}
 		}
 	}
 	.disabled-button {
-		background-color: rgb(150, 150, 150);
+		// background-color: $unavailible-button;
 		border-radius: 2px;
+		color: rgb(96, 96, 96);
+
+		&:hover {
+			cursor: default;
+			background-color: $secondary-background-color;
+		}
 	}
 
 	.movie-error {
 		font-size: 25px;
 		font-weight: 400;
 		margin-top: 20px;
+		color: $secondary-font-color;
+		font-weight: 300;
 	}
 }

@@ -10,7 +10,7 @@
 .app-wrapper {
   position: relative;
   min-height: 100vh;
-  background-color: #040e1f;
+  background-color: #071328;
 }
 
 .app-wrapper .body {
@@ -36,12 +36,15 @@
 }
 
 .app-wrapper .body > h2 {
-  margin-top: 15px;
+  margin-top: 5px;
+  margin-bottom: 10px;
   font-size: 22px;
   font-weight: 300;
+  color: #dbe0e8;
 }
 
 .app-wrapper .body .movie-display {
+  margin-top: 20px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 2fr 3fr;

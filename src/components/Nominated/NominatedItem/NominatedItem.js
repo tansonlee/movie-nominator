@@ -1,5 +1,6 @@
 import React from "react";
 import "./NominatedItem.css";
+import formatDate from "../../../utilities/formatDate";
 
 import { Draggable } from "react-beautiful-dnd";
 
@@ -18,10 +19,10 @@ const NominatedItem = ({ provided, index, nomination, handleRemoveNomination }) 
 					)}
 					<div>
 						<h3>{nomination.Title}</h3>
-						<p>{nomination.Released}</p>
+						<p>{formatDate(nomination.Released)}</p>
 						<p>IMDb Rating: {nomination.imdbRating}</p>
 						<button onClick={() => handleRemoveNomination(index)}>
-							Remove nomination
+							Remove Nomination
 						</button>
 					</div>
 				</div>

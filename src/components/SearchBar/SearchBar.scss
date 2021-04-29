@@ -1,9 +1,17 @@
+@import "../../variables";
+
 .searchbar-wrapper {
 	width: 60vw;
 	input {
-		width: 60vw;
+		width: 100%;
 		padding: 6px 10px;
-		font-size: 20px;
+		font-size: 22px;
+		font-weight: 300;
 		margin: 10px;
+
+		background-color: $secondary-background-color;
+		border: 1px solid $main-flare;
+		border-radius: 4px;
+		color: $secondary-font-color;
 	}
 }

@@ -11,6 +11,12 @@
           align-items: center;
 }
 
+.searchedmovie-wrapper > h2 {
+  color: #dbe0e8;
+  font-size: 20px;
+  font-weight: 300;
+}
+
 .searchedmovie-wrapper h1 {
   font-size: 40px;
   font-weight: 400;
@@ -18,9 +24,8 @@
 }
 
 .searchedmovie-wrapper > div {
-  width: 100%;
-  background-color: #1f2836;
-  padding: 20px;
+  background-color: #202a3c;
+  padding: 25px;
   border-radius: 8px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -29,9 +34,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -39,6 +41,7 @@
 
 .searchedmovie-wrapper > div img {
   width: 250px;
+  margin: 0 auto;
 }
 
 .searchedmovie-wrapper > div div {
@@ -62,17 +65,34 @@
 .searchedmovie-wrapper > div div button {
   width: 100%;
   padding: 5px;
-  font-size: 18px;
+  font-size: 20px;
+  border: 1px solid #00b4d8;
+  background-color: #202a3c;
+  border-radius: 4px;
+  color: #dbe0e8;
+  font-weight: 300;
+}
+
+.searchedmovie-wrapper > div div button:hover {
+  cursor: pointer;
+  background-color: #323d54;
 }
 
 .searchedmovie-wrapper .disabled-button {
-  background-color: #969696;
   border-radius: 2px;
+  color: #606060;
+}
+
+.searchedmovie-wrapper .disabled-button:hover {
+  cursor: default;
+  background-color: #202a3c;
 }
 
 .searchedmovie-wrapper .movie-error {
   font-size: 25px;
   font-weight: 400;
   margin-top: 20px;
+  color: #dbe0e8;
+  font-weight: 300;
 }
 /*# sourceMappingURL=SearchedMovie.css.map */

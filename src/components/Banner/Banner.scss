@@ -1,5 +1,7 @@
+@import "../../variables";
+
 .banner-wrapper {
-	background-color: rgb(123, 123, 201);
+	background-color: $secondary-background-color;
 	width: 75vw;
 	padding: 10px;
 	margin: 20px;
@@ -7,6 +9,7 @@
 	border-radius: 6px;
 	h2 {
 		font-size: 38px;
-		font-weight: 400;
+		font-weight: 300;
+		color: $main-font-color;
 	}
 }

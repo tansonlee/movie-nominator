@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = "http://www.omdbapi.com/?apikey=5ea44cc9&type=movie";
+const baseURL = `http://www.omdbapi.com/?apikey=${process.env.APIKEY}&type=movie`;
 
 export const getMovieByTitle = async title => {
 	try {

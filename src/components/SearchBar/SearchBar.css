@@ -3,9 +3,14 @@
 }
 
 .searchbar-wrapper input {
-  width: 60vw;
+  width: 100%;
   padding: 6px 10px;
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: 300;
   margin: 10px;
+  background-color: #202a3c;
+  border: 1px solid #00b4d8;
+  border-radius: 4px;
+  color: #dbe0e8;
 }
 /*# sourceMappingURL=SearchBar.css.map */
