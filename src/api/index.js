@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const baseURL = `https://www.omdbapi.com/?apikey=${process.env.REACT_APP_APIKEY}&type=movie`;
+const APIKEY = "5ea44cc9";
+const baseURL = `https://www.omdbapi.com/?apikey=${APIKEY}&type=movie`;
 
 export const getMovieByTitle = async title => {
 	try {
