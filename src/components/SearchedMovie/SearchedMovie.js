@@ -18,8 +18,6 @@ const Movie = ({ movie }) => {
 		if (alreadyNominated) return;
 		dispatch(addNomination(movie));
 	};
-	console.log(movie);
-	console.log(alreadyNominated);
 	if (title === "") {
 		return (
 			<div className="searchedmovie-wrapper">
