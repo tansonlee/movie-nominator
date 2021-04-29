@@ -1,0 +1,78 @@
+.searchedmovie-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.searchedmovie-wrapper h1 {
+  font-size: 40px;
+  font-weight: 400;
+  color: #e3e3e3;
+}
+
+.searchedmovie-wrapper > div {
+  width: 100%;
+  background-color: #1f2836;
+  padding: 20px;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.searchedmovie-wrapper > div img {
+  width: 250px;
+}
+
+.searchedmovie-wrapper > div div {
+  margin-top: 25px;
+}
+
+.searchedmovie-wrapper > div div h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #e3e3e3;
+  font-weight: 400;
+}
+
+.searchedmovie-wrapper > div div p {
+  font-size: 18px;
+  margin: 8px 0px;
+  color: #dbe0e8;
+  font-weight: 300;
+}
+
+.searchedmovie-wrapper > div div button {
+  width: 100%;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.searchedmovie-wrapper .disabled-button {
+  background-color: #969696;
+  border-radius: 2px;
+}
+
+.searchedmovie-wrapper .movie-error {
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=SearchedMovie.css.map */

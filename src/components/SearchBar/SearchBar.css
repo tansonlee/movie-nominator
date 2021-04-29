@@ -1,0 +1,11 @@
+.searchbar-wrapper {
+  width: 60vw;
+}
+
+.searchbar-wrapper input {
+  width: 60vw;
+  padding: 6px 10px;
+  font-size: 20px;
+  margin: 10px;
+}
+/*# sourceMappingURL=SearchBar.css.map */

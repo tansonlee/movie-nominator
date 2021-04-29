@@ -1,0 +1,79 @@
+.nominated-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.nominated-wrapper .nominated-list {
+  width: 100%;
+  background-color: rgba(254, 254, 254, 0.201);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.nominated-wrapper > p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #dbe0e8;
+  font-weight: 300;
+}
+
+.nominated-wrapper h1 {
+  font-size: 40px;
+  font-weight: 400;
+  color: #e3e3e3;
+}
+
+.nominated-wrapper .movie-item {
+  width: 100%;
+  background-color: #1f2836;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nominated-wrapper .movie-item img {
+  height: 160px;
+}
+
+.nominated-wrapper .movie-item div {
+  margin-left: 25px;
+}
+
+.nominated-wrapper .movie-item div h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #e3e3e3;
+  font-weight: 400;
+}
+
+.nominated-wrapper .movie-item div p {
+  font-size: 18px;
+  margin: 5px;
+  color: #dbe0e8;
+  font-weight: 300;
+}
+
+.nominated-wrapper .movie-item div button {
+  padding: 5px;
+  font-size: 18px;
+}
+/*# sourceMappingURL=Nominated.css.map */

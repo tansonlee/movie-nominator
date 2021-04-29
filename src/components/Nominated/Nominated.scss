@@ -1,0 +1,67 @@
+@import "../../variables.scss";
+
+.nominated-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+
+	.nominated-list {
+		width: 100%;
+		background-color: $third-background-color;
+		padding: 10px;
+		border-radius: 8px;
+		// border: 1px solid $main-flare;
+	}
+
+	> p {
+		font-size: 20px;
+		margin-bottom: 10px;
+		color: $secondary-font-color;
+		font-weight: 300;
+	}
+
+	h1 {
+		font-size: 40px;
+		font-weight: 400;
+		color: $main-font-color;
+	}
+
+	.movie-item {
+		width: 100%;
+		background-color: $secondary-background-color;
+		padding: 15px;
+		margin-bottom: 10px;
+		border-radius: 8px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+
+		img {
+			height: 160px;
+		}
+
+		div {
+			margin-left: 25px;
+
+			h3 {
+				font-size: 22px;
+				margin-bottom: 10px;
+				color: $main-font-color;
+				font-weight: 400;
+			}
+
+			p {
+				font-size: 18px;
+				margin: 5px;
+				color: $secondary-font-color;
+				font-weight: 300;
+			}
+
+			button {
+				padding: 5px;
+				font-size: 18px;
+			}
+		}
+	}
+}
